@@ -8,6 +8,10 @@ from chips import *
 class ChipGallery(Scene):
     def construct(self):
         self.camera.background_color = WHITE
+
+        title = Text('Basic Gates Demo', font_size=18, color=BLACK).to_edge(UP)
+        self.play(Write(title))
+
         gates = VGroup(
             NotGate("NOT", in_label="A", out_label="A'").shift(LEFT*6+UP*2),
             AndGate("AND", in1_label="A", in2_label="B", out_label="AB").shift(LEFT*2+UP*2),

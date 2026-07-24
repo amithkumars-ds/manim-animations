@@ -2,6 +2,8 @@
 
 A collection of Manim animations created for educational YouTube videos.
 
+![Chip Gallery](assets/ChipGallery.gif)
+
 ## Current Topics
 
 -   nand2tetris
