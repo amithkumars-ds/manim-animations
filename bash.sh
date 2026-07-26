@@ -12,4 +12,6 @@
 # manim -qk nand2tetris/1_boolean_logic/5_demux.py DEMUXCircuit
 
 # manim -pql nand2tetris/1_boolean_logic/5_rough.py XORFull
-manim -qk experiments/chips_test.py ChipGallery
+# manim -qk experiments/chips_test.py ChipGallery
+
+manim -pql nand2tetris/Intro.py
